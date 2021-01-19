@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Acme.CommonUtilities.Extensions
+namespace Shared.StaticExtensions.Extensions
 {
     /// <summary>
     /// 时间转换拓展

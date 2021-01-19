@@ -4,7 +4,7 @@ using System.IO;
 using System.Runtime.Serialization.Json;
 using System.Text;
 
-namespace Acme.CommonUtilities.Extensions
+namespace Shared.StaticExtensions.Extensions
 {
     public static class JsonExtensions
     {
