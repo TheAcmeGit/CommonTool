@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <Authors>美到极致的风景</Authors>
+    <Company>无</Company>
   </PropertyGroup>
 
 </Project>
