@@ -16,7 +16,7 @@ namespace Shared.StaticExtensions.Extensions
         /// <returns></returns>
         public static long ConvertDataTimeToLong(this DateTime dt)
         {
-            DateTime dtStart = new DateTime(1997, 1, 1).ToLocalTime();
+            DateTime dtStart = new DateTime(1970, 1, 1).ToLocalTime();
             dt = dt.ToLocalTime();
             TimeSpan toNow = dt.Subtract(dtStart);
             long timeStamp = toNow.Ticks;
@@ -32,7 +32,7 @@ namespace Shared.StaticExtensions.Extensions
         /// <returns></returns>
         public static DateTime ConvertLongToDateTime(this long d)
         {
-            DateTime dtStart = new DateTime(1997, 1, 1).ToLocalTime();
+            DateTime dtStart = new DateTime(1970, 1, 1).ToLocalTime();
             long lTime = d*10000;
             TimeSpan toNow = new TimeSpan(lTime);
             DateTime dtResult = dtStart.Add(toNow);
